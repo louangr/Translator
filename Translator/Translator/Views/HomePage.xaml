@@ -7,9 +7,106 @@
                xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
                mc:Ignorable="d"
                Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <core:CorePage.Resources>
+        <Style x:Key="CheckBoxStyle"
+               TargetType="CheckBox"
+               BasedOn="{StaticResource DefaultCheckBoxStyle}">
+            <Setter Property="Height"
+                    Value="40" />
+            <Setter Property="FontSize"
+                    Value="19" />
+            <Setter Property="FontWeight"
+                    Value="Bold" />
+        </Style>
 
-    <StackPanel HorizontalAlignment="Center"
-                VerticalAlignment="Center">
-        <TextBlock Text="Translator" />
-    </StackPanel>
+        <Style x:Key="SublabelTextBlockStyle"
+               TargetType="TextBlock">
+            <Setter Property="Foreground"
+                    Value="{StaticResource SublabelColorBrush}" />
+            <Setter Property="TextWrapping"
+                    Value="Wrap" />
+        </Style>
+    </core:CorePage.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="500" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="500" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Column="1"
+              Grid.Row="1"
+              CornerRadius="50"
+              Padding="50"
+              Background="{StaticResource ContainerBackgroundColor}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="30" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="30" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="30" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="30" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Grid VerticalAlignment="Top">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <ComboBox HorizontalAlignment="Stretch" />
+
+                <FontIcon Grid.Column="1"
+                          FontFamily="{StaticResource SymbolThemeFontFamily}"
+                          Margin="0,0,14,8"
+                          Glyph="&#xE7EA;"
+                          FontSize="20" />
+
+                <FontIcon Grid.Column="1"
+                          FontFamily="{StaticResource SymbolThemeFontFamily}"
+                          Margin="14,9,0,0"
+                          Glyph="&#xEA62;"
+                          FontSize="20" />
+
+                <ComboBox Grid.Column="2"
+                          HorizontalAlignment="Stretch" />
+            </Grid>
+
+            <StackPanel Grid.Row="2">
+                <CheckBox x:Uid="ContinuousTranslationCheckBox"
+                          Style="{StaticResource CheckBoxStyle}" />
+                <TextBlock x:Uid="ContinuousTranslationTextBlock"
+                           Style="{StaticResource SublabelTextBlockStyle}" />
+            </StackPanel>
+
+            <StackPanel Grid.Row="4">
+                <CheckBox x:Uid="AutoDetectionCheckBox"
+                          Style="{StaticResource CheckBoxStyle}" />
+                <TextBlock x:Uid="AutoDetectionTextBlock"
+                           Style="{StaticResource SublabelTextBlockStyle}" />
+            </StackPanel>
+
+            <StackPanel Grid.Row="6">
+                <CheckBox x:Uid="VocalSynthesisCheckBox"
+                          Style="{StaticResource CheckBoxStyle}" />
+                <TextBlock x:Uid="VocalSynthesisTextBlock"
+                           Style="{StaticResource SublabelTextBlockStyle}" />
+            </StackPanel>
+
+            <Button x:Uid="TranslationTriggerButton"
+                    Grid.Row="8"
+                    HorizontalAlignment="Right"
+                    Style="{StaticResource AccentButtonStyle}" />
+        </Grid>
+    </Grid>
 </core:CorePage>

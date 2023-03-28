@@ -120,4 +120,25 @@
   <data name="AppName" xml:space="preserve">
     <value>Translator</value>
   </data>
+  <data name="AutoDetectionCheckBox.Content" xml:space="preserve">
+    <value>Détection automatique</value>
+  </data>
+  <data name="AutoDetectionTextBlock.Text" xml:space="preserve">
+    <value>Parmi les langues source et cible, l'application détecte automatiquement laquelle est parlée puis traduit vers l'autre</value>
+  </data>
+  <data name="ContinuousTranslationCheckBox.Content" xml:space="preserve">
+    <value>Traduction continue</value>
+  </data>
+  <data name="ContinuousTranslationTextBlock.Text" xml:space="preserve">
+    <value>La traduction s'arrête lorsque vous le décidez et non à la fin de chaque phrase</value>
+  </data>
+  <data name="TranslationTriggerButton.Content" xml:space="preserve">
+    <value>C'est partie !</value>
+  </data>
+  <data name="VocalSynthesisCheckBox.Content" xml:space="preserve">
+    <value>Synthèse vocale</value>
+  </data>
+  <data name="VocalSynthesisTextBlock.Text" xml:space="preserve">
+    <value>Synthétise la traduction dans la langue cible</value>
+  </data>
 </root>
