@@ -28,7 +28,7 @@
         </Style>
     </core:CorePage.Resources>
 
-    <Grid>
+    <Grid Padding="12">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="500" />
@@ -39,6 +39,18 @@
             <RowDefinition Height="500" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
+
+        <Button Grid.Column="3"
+                Background="Transparent"
+                BorderThickness="0"
+                Padding="0"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Top"
+                Command="{x:Bind PageViewModel.NavigateToSettingsPageCommand}">
+            <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}"
+                      Glyph="&#xE115;"
+                      FontSize="20" />
+        </Button>
 
         <Grid Grid.Column="1"
               Grid.Row="1"
@@ -64,7 +76,11 @@
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
 
-                <ComboBox HorizontalAlignment="Stretch" />
+                <ComboBox ItemsSource="{x:Bind PageViewModel.SourceTranslationLanguages, Mode=OneWay}"
+                          DisplayMemberPath="Language"
+                          SelectedValuePath="Locale"
+                          SelectedValue="{Binding SourceTranslationLanguageSelected, Mode=TwoWay}"
+                          HorizontalAlignment="Stretch" />
 
                 <FontIcon Grid.Column="1"
                           FontFamily="{StaticResource SymbolThemeFontFamily}"
@@ -78,32 +94,42 @@
                           Glyph="&#xEA62;"
                           FontSize="20" />
 
-                <ComboBox Grid.Column="2"
+                <ComboBox ItemsSource="{x:Bind PageViewModel.TargetTranslationLanguages, Mode=OneWay}"
+                          DisplayMemberPath="Language"
+                          SelectedValuePath="Locale"
+                          SelectedValue="{Binding TargetTranslationLanguageSelected, Mode=TwoWay}"
+                          Grid.Column="2"
                           HorizontalAlignment="Stretch" />
             </Grid>
 
             <StackPanel Grid.Row="2">
-                <CheckBox x:Uid="ContinuousTranslationCheckBox"
+                <CheckBox x:Uid="HomePage_ContinuousTranslationCheckBox"
+                          IsChecked="True"
+                          IsEnabled="False"
                           Style="{StaticResource CheckBoxStyle}" />
-                <TextBlock x:Uid="ContinuousTranslationTextBlock"
+                <TextBlock x:Uid="HomePage_ContinuousTranslationTextBlock"
                            Style="{StaticResource SublabelTextBlockStyle}" />
             </StackPanel>
 
             <StackPanel Grid.Row="4">
-                <CheckBox x:Uid="AutoDetectionCheckBox"
+                <CheckBox x:Uid="HomePage_AutoDetectionCheckBox"
+                          IsChecked="False"
+                          IsEnabled="False"
                           Style="{StaticResource CheckBoxStyle}" />
-                <TextBlock x:Uid="AutoDetectionTextBlock"
+                <TextBlock x:Uid="HomePage_AutoDetectionTextBlock"
                            Style="{StaticResource SublabelTextBlockStyle}" />
             </StackPanel>
 
             <StackPanel Grid.Row="6">
-                <CheckBox x:Uid="VocalSynthesisCheckBox"
+                <CheckBox x:Uid="HomePage_VocalSynthesisCheckBox"
+                          IsChecked="False"
+                          IsEnabled="False"
                           Style="{StaticResource CheckBoxStyle}" />
-                <TextBlock x:Uid="VocalSynthesisTextBlock"
+                <TextBlock x:Uid="HomePage_VocalSynthesisTextBlock"
                            Style="{StaticResource SublabelTextBlockStyle}" />
             </StackPanel>
 
-            <Button x:Uid="TranslationTriggerButton"
+            <Button x:Uid="HomePage_TranslationTriggerButton"
                     Grid.Row="8"
                     HorizontalAlignment="Right"
                     Style="{StaticResource AccentButtonStyle}" />

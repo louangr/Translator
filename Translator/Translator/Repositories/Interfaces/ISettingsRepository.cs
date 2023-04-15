@@ -2,5 +2,7 @@
 {
     public interface ISettingsRepository
     {
+        string SourceTranslationLanguage { get; set; }
+        string TargetTranslationLanguage { get; set; }
     }
 }

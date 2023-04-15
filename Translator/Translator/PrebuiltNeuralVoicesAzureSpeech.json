@@ -1,0 +1,1948 @@
+[
+  {
+    "language": "Afrikaans (South Africa)",
+    "locale": "af-ZA",
+    "gender": "Female",
+    "voiceName": "af-ZA-AdriNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Afrikaans (South Africa)",
+    "locale": "af-ZA",
+    "gender": "Male",
+    "voiceName": "af-ZA-WillemNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Amharic (Ethiopia)",
+    "locale": "am-ET",
+    "gender": "Female",
+    "voiceName": "am-ET-MekdesNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Amharic (Ethiopia)",
+    "locale": "am-ET",
+    "gender": "Male",
+    "voiceName": "am-ET-AmehaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Arabic (Algeria)",
+    "locale": "ar-DZ",
+    "gender": "Female",
+    "voiceName": "ar-DZ-AminaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Arabic (Algeria)",
+    "locale": "ar-DZ",
+    "gender": "Male",
+    "voiceName": "ar-DZ-IsmaelNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Arabic (Bahrain)",
+    "locale": "ar-BH",
+    "gender": "Female",
+    "voiceName": "ar-BH-LailaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Arabic (Bahrain)",
+    "locale": "ar-BH",
+    "gender": "Male",
+    "voiceName": "ar-BH-AliNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Arabic (Egypt)",
+    "locale": "ar-EG",
+    "gender": "Female",
+    "voiceName": "ar-EG-SalmaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Arabic (Egypt)",
+    "locale": "ar-EG",
+    "gender": "Male",
+    "voiceName": "ar-EG-ShakirNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Arabic (Iraq)",
+    "locale": "ar-IQ",
+    "gender": "Female",
+    "voiceName": "ar-IQ-RanaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Arabic (Iraq)",
+    "locale": "ar-IQ",
+    "gender": "Male",
+    "voiceName": "ar-IQ-BasselNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Arabic (Jordan)",
+    "locale": "ar-JO",
+    "gender": "Female",
+    "voiceName": "ar-JO-SanaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Arabic (Jordan)",
+    "locale": "ar-JO",
+    "gender": "Male",
+    "voiceName": "ar-JO-TaimNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Arabic (Kuwait)",
+    "locale": "ar-KW",
+    "gender": "Female",
+    "voiceName": "ar-KW-NouraNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Arabic (Kuwait)",
+    "locale": "ar-KW",
+    "gender": "Male",
+    "voiceName": "ar-KW-FahedNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Arabic (Libya)",
+    "locale": "ar-LY",
+    "gender": "Female",
+    "voiceName": "ar-LY-ImanNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Arabic (Libya)",
+    "locale": "ar-LY",
+    "gender": "Male",
+    "voiceName": "ar-LY-OmarNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Arabic (Morocco)",
+    "locale": "ar-MA",
+    "gender": "Female",
+    "voiceName": "ar-MA-MounaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Arabic (Morocco)",
+    "locale": "ar-MA",
+    "gender": "Male",
+    "voiceName": "ar-MA-JamalNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Arabic (Qatar)",
+    "locale": "ar-QA",
+    "gender": "Female",
+    "voiceName": "ar-QA-AmalNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Arabic (Qatar)",
+    "locale": "ar-QA",
+    "gender": "Male",
+    "voiceName": "ar-QA-MoazNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Arabic (Saudi Arabia)",
+    "locale": "ar-SA",
+    "gender": "Female",
+    "voiceName": "ar-SA-ZariyahNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Arabic (Saudi Arabia)",
+    "locale": "ar-SA",
+    "gender": "Male",
+    "voiceName": "ar-SA-HamedNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Arabic (Syria)",
+    "locale": "ar-SY",
+    "gender": "Female",
+    "voiceName": "ar-SY-AmanyNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Arabic (Syria)",
+    "locale": "ar-SY",
+    "gender": "Male",
+    "voiceName": "ar-SY-LaithNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Arabic (Tunisia)",
+    "locale": "ar-TN",
+    "gender": "Female",
+    "voiceName": "ar-TN-ReemNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Arabic (Tunisia)",
+    "locale": "ar-TN",
+    "gender": "Male",
+    "voiceName": "ar-TN-HediNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Arabic (United Arab Emirates)",
+    "locale": "ar-AE",
+    "gender": "Female",
+    "voiceName": "ar-AE-FatimaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Arabic (United Arab Emirates)",
+    "locale": "ar-AE",
+    "gender": "Male",
+    "voiceName": "ar-AE-HamdanNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Arabic (Yemen)",
+    "locale": "ar-YE",
+    "gender": "Female",
+    "voiceName": "ar-YE-MaryamNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Arabic (Yemen)",
+    "locale": "ar-YE",
+    "gender": "Male",
+    "voiceName": "ar-YE-SalehNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Bangla (Bangladesh)",
+    "locale": "bn-BD",
+    "gender": "Female",
+    "voiceName": "bn-BD-NabanitaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Bangla (Bangladesh)",
+    "locale": "bn-BD",
+    "gender": "Male",
+    "voiceName": "bn-BD-PradeepNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Bengali (India)",
+    "locale": "bn-IN",
+    "gender": "Female",
+    "voiceName": "bn-IN-TanishaaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Bengali (India)",
+    "locale": "bn-IN",
+    "gender": "Male",
+    "voiceName": "bn-IN-BashkarNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Bulgarian (Bulgaria)",
+    "locale": "bg-BG",
+    "gender": "Female",
+    "voiceName": "bg-BG-KalinaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Bulgarian (Bulgaria)",
+    "locale": "bg-BG",
+    "gender": "Male",
+    "voiceName": "bg-BG-BorislavNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Burmese (Myanmar)",
+    "locale": "my-MM",
+    "gender": "Female",
+    "voiceName": "my-MM-NilarNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Burmese (Myanmar)",
+    "locale": "my-MM",
+    "gender": "Male",
+    "voiceName": "my-MM-ThihaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Catalan (Spain)",
+    "locale": "ca-ES",
+    "gender": "Female",
+    "voiceName": "ca-ES-AlbaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Catalan (Spain)",
+    "locale": "ca-ES",
+    "gender": "Female",
+    "voiceName": "ca-ES-JoanaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Catalan (Spain)",
+    "locale": "ca-ES",
+    "gender": "Male",
+    "voiceName": "ca-ES-EnricNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Chinese (Cantonese, Traditional)",
+    "locale": "zh-HK",
+    "gender": "Female",
+    "voiceName": "zh-HK-HiuGaaiNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Chinese (Cantonese, Traditional)",
+    "locale": "zh-HK",
+    "gender": "Female",
+    "voiceName": "zh-HK-HiuMaanNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Chinese (Cantonese, Traditional)",
+    "locale": "zh-HK",
+    "gender": "Male",
+    "voiceName": "zh-HK-WanLungNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Chinese (Taiwanese Mandarin)",
+    "locale": "zh-TW",
+    "gender": "Female",
+    "voiceName": "zh-TW-HsiaoChenNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Chinese (Taiwanese Mandarin)",
+    "locale": "zh-TW",
+    "gender": "Female",
+    "voiceName": "zh-TW-HsiaoYuNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Chinese (Taiwanese Mandarin)",
+    "locale": "zh-TW",
+    "gender": "Male",
+    "voiceName": "zh-TW-YunJheNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Croatian (Croatia)",
+    "locale": "hr-HR",
+    "gender": "Female",
+    "voiceName": "hr-HR-GabrijelaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Croatian (Croatia)",
+    "locale": "hr-HR",
+    "gender": "Male",
+    "voiceName": "hr-HR-SreckoNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Czech (Czech)",
+    "locale": "cs-CZ",
+    "gender": "Female",
+    "voiceName": "cs-CZ-VlastaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Czech (Czech)",
+    "locale": "cs-CZ",
+    "gender": "Male",
+    "voiceName": "cs-CZ-AntoninNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Danish (Denmark)",
+    "locale": "da-DK",
+    "gender": "Female",
+    "voiceName": "da-DK-ChristelNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Danish (Denmark)",
+    "locale": "da-DK",
+    "gender": "Male",
+    "voiceName": "da-DK-JeppeNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Dutch (Belgium)",
+    "locale": "nl-BE",
+    "gender": "Female",
+    "voiceName": "nl-BE-DenaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Dutch (Belgium)",
+    "locale": "nl-BE",
+    "gender": "Male",
+    "voiceName": "nl-BE-ArnaudNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Dutch (Netherlands)",
+    "locale": "nl-NL",
+    "gender": "Female",
+    "voiceName": "nl-NL-ColetteNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Dutch (Netherlands)",
+    "locale": "nl-NL",
+    "gender": "Female",
+    "voiceName": "nl-NL-FennaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Dutch (Netherlands)",
+    "locale": "nl-NL",
+    "gender": "Male",
+    "voiceName": "nl-NL-MaartenNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "English (Australia)",
+    "locale": "en-AU",
+    "gender": "Female",
+    "voiceName": "en-AU-NatashaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "English (Australia)",
+    "locale": "en-AU",
+    "gender": "Male",
+    "voiceName": "en-AU-WilliamNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "English (Canada)",
+    "locale": "en-CA",
+    "gender": "Female",
+    "voiceName": "en-CA-ClaraNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "English (Canada)",
+    "locale": "en-CA",
+    "gender": "Male",
+    "voiceName": "en-CA-LiamNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "English (Hongkong)",
+    "locale": "en-HK",
+    "gender": "Female",
+    "voiceName": "en-HK-YanNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "English (Hongkong)",
+    "locale": "en-HK",
+    "gender": "Male",
+    "voiceName": "en-HK-SamNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "English (India)",
+    "locale": "en-IN",
+    "gender": "Female",
+    "voiceName": "en-IN-NeerjaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "English (India)",
+    "locale": "en-IN",
+    "gender": "Male",
+    "voiceName": "en-IN-PrabhatNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "English (Ireland)",
+    "locale": "en-IE",
+    "gender": "Female",
+    "voiceName": "en-IE-EmilyNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "English (Ireland)",
+    "locale": "en-IE",
+    "gender": "Male",
+    "voiceName": "en-IE-ConnorNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "English (Kenya)",
+    "locale": "en-KE",
+    "gender": "Female",
+    "voiceName": "en-KE-AsiliaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "English (Kenya)",
+    "locale": "en-KE",
+    "gender": "Male",
+    "voiceName": "en-KE-ChilembaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "English (New Zealand)",
+    "locale": "en-NZ",
+    "gender": "Female",
+    "voiceName": "en-NZ-MollyNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "English (New Zealand)",
+    "locale": "en-NZ",
+    "gender": "Male",
+    "voiceName": "en-NZ-MitchellNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "English (Nigeria)",
+    "locale": "en-NG",
+    "gender": "Female",
+    "voiceName": "en-NG-EzinneNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "English (Nigeria)",
+    "locale": "en-NG",
+    "gender": "Male",
+    "voiceName": "en-NG-AbeoNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "English (Philippines)",
+    "locale": "en-PH",
+    "gender": "Female",
+    "voiceName": "en-PH-RosaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "English (Philippines)",
+    "locale": "en-PH",
+    "gender": "Male",
+    "voiceName": "en-PH-JamesNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "English (Singapore)",
+    "locale": "en-SG",
+    "gender": "Female",
+    "voiceName": "en-SG-LunaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "English (Singapore)",
+    "locale": "en-SG",
+    "gender": "Male",
+    "voiceName": "en-SG-WayneNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "English (South Africa)",
+    "locale": "en-ZA",
+    "gender": "Female",
+    "voiceName": "en-ZA-LeahNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "English (South Africa)",
+    "locale": "en-ZA",
+    "gender": "Male",
+    "voiceName": "en-ZA-LukeNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "English (Tanzania)",
+    "locale": "en-TZ",
+    "gender": "Female",
+    "voiceName": "en-TZ-ImaniNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "English (Tanzania)",
+    "locale": "en-TZ",
+    "gender": "Male",
+    "voiceName": "en-TZ-ElimuNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "English (United Kingdom)",
+    "locale": "en-GB",
+    "gender": "Female",
+    "voiceName": "en-GB-LibbyNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "English (United Kingdom)",
+    "locale": "en-GB",
+    "gender": "Female",
+    "voiceName": "en-GB-MiaNeural <sup>Retired on 30 October 2021, see below</sup>",
+    "styleSupport": "General"
+  },
+  {
+    "language": "English (United Kingdom)",
+    "locale": "en-GB",
+    "gender": "Female",
+    "voiceName": "en-GB-SoniaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "English (United Kingdom)",
+    "locale": "en-GB",
+    "gender": "Male",
+    "voiceName": "en-GB-RyanNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "English (United States)",
+    "locale": "en-US",
+    "gender": "Female",
+    "voiceName": "en-US-AmberNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "English (United States)",
+    "locale": "en-US",
+    "gender": "Female",
+    "voiceName": "en-US-AshleyNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "English (United States)",
+    "locale": "en-US",
+    "gender": "Female",
+    "voiceName": "en-US-CoraNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "English (United States)",
+    "locale": "en-US",
+    "gender": "Female",
+    "voiceName": "en-US-ElizabethNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "English (United States)",
+    "locale": "en-US",
+    "gender": "Female",
+    "voiceName": "en-US-MichelleNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "English (United States)",
+    "locale": "en-US",
+    "gender": "Female",
+    "voiceName": "en-US-MonicaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "English (United States)",
+    "locale": "en-US",
+    "gender": "Kid",
+    "voiceName": "en-US-AnaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "English (United States)",
+    "locale": "en-US",
+    "gender": "Male",
+    "voiceName": "en-US-BrandonNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "English (United States)",
+    "locale": "en-US",
+    "gender": "Male",
+    "voiceName": "en-US-ChristopherNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "English (United States)",
+    "locale": "en-US",
+    "gender": "Male",
+    "voiceName": "en-US-EricNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "English (United States)",
+    "locale": "en-US",
+    "gender": "Male",
+    "voiceName": "en-US-JacobNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Estonian (Estonia)",
+    "locale": "et-EE",
+    "gender": "Female",
+    "voiceName": "et-EE-AnuNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Estonian (Estonia)",
+    "locale": "et-EE",
+    "gender": "Male",
+    "voiceName": "et-EE-KertNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Filipino (Philippines)",
+    "locale": "fil-PH",
+    "gender": "Female",
+    "voiceName": "fil-PH-BlessicaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Filipino (Philippines)",
+    "locale": "fil-PH",
+    "gender": "Male",
+    "voiceName": "fil-PH-AngeloNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Finnish (Finland)",
+    "locale": "fi-FI",
+    "gender": "Female",
+    "voiceName": "fi-FI-NooraNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Finnish (Finland)",
+    "locale": "fi-FI",
+    "gender": "Female",
+    "voiceName": "fi-FI-SelmaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Finnish (Finland)",
+    "locale": "fi-FI",
+    "gender": "Male",
+    "voiceName": "fi-FI-HarriNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "French (Belgium)",
+    "locale": "fr-BE",
+    "gender": "Female",
+    "voiceName": "fr-BE-CharlineNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "French (Belgium)",
+    "locale": "fr-BE",
+    "gender": "Male",
+    "voiceName": "fr-BE-GerardNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "French (Canada)",
+    "locale": "fr-CA",
+    "gender": "Female",
+    "voiceName": "fr-CA-SylvieNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "French (Canada)",
+    "locale": "fr-CA",
+    "gender": "Male",
+    "voiceName": "fr-CA-AntoineNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "French (Canada)",
+    "locale": "fr-CA",
+    "gender": "Male",
+    "voiceName": "fr-CA-JeanNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "French (France)",
+    "locale": "fr-FR",
+    "gender": "Male",
+    "voiceName": "fr-FR-HenriNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "French (Switzerland)",
+    "locale": "fr-CH",
+    "gender": "Female",
+    "voiceName": "fr-CH-ArianeNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "French (Switzerland)",
+    "locale": "fr-CH",
+    "gender": "Male",
+    "voiceName": "fr-CH-FabriceNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Galician (Spain)",
+    "locale": "gl-ES",
+    "gender": "Female",
+    "voiceName": "gl-ES-SabelaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Galician (Spain)",
+    "locale": "gl-ES",
+    "gender": "Male",
+    "voiceName": "gl-ES-RoiNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "German (Austria)",
+    "locale": "de-AT",
+    "gender": "Female",
+    "voiceName": "de-AT-IngridNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "German (Austria)",
+    "locale": "de-AT",
+    "gender": "Male",
+    "voiceName": "de-AT-JonasNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "German (Germany)",
+    "locale": "de-DE",
+    "gender": "Female",
+    "voiceName": "de-DE-KatjaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "German (Germany)",
+    "locale": "de-DE",
+    "gender": "Male",
+    "voiceName": "de-DE-ConradNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "German (Switzerland)",
+    "locale": "de-CH",
+    "gender": "Female",
+    "voiceName": "de-CH-LeniNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "German (Switzerland)",
+    "locale": "de-CH",
+    "gender": "Male",
+    "voiceName": "de-CH-JanNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Greek (Greece)",
+    "locale": "el-GR",
+    "gender": "Female",
+    "voiceName": "el-GR-AthinaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Greek (Greece)",
+    "locale": "el-GR",
+    "gender": "Male",
+    "voiceName": "el-GR-NestorasNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Gujarati (India)",
+    "locale": "gu-IN",
+    "gender": "Female",
+    "voiceName": "gu-IN-DhwaniNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Gujarati (India)",
+    "locale": "gu-IN",
+    "gender": "Male",
+    "voiceName": "gu-IN-NiranjanNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Hebrew (Israel)",
+    "locale": "he-IL",
+    "gender": "Female",
+    "voiceName": "he-IL-HilaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Hebrew (Israel)",
+    "locale": "he-IL",
+    "gender": "Male",
+    "voiceName": "he-IL-AvriNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Hindi (India)",
+    "locale": "hi-IN",
+    "gender": "Female",
+    "voiceName": "hi-IN-SwaraNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Hindi (India)",
+    "locale": "hi-IN",
+    "gender": "Male",
+    "voiceName": "hi-IN-MadhurNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Hungarian (Hungary)",
+    "locale": "hu-HU",
+    "gender": "Female",
+    "voiceName": "hu-HU-NoemiNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Hungarian (Hungary)",
+    "locale": "hu-HU",
+    "gender": "Male",
+    "voiceName": "hu-HU-TamasNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Icelandic (Iceland)",
+    "locale": "is-IS",
+    "gender": "Female",
+    "voiceName": "is-IS-GudrunNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Icelandic (Iceland)",
+    "locale": "is-IS",
+    "gender": "Male",
+    "voiceName": "is-IS-GunnarNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Indonesian (Indonesia)",
+    "locale": "id-ID",
+    "gender": "Female",
+    "voiceName": "id-ID-GadisNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Indonesian (Indonesia)",
+    "locale": "id-ID",
+    "gender": "Male",
+    "voiceName": "id-ID-ArdiNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Irish (Ireland)",
+    "locale": "ga-IE",
+    "gender": "Female",
+    "voiceName": "ga-IE-OrlaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Irish (Ireland)",
+    "locale": "ga-IE",
+    "gender": "Male",
+    "voiceName": "ga-IE-ColmNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Italian (Italy)",
+    "locale": "it-IT",
+    "gender": "Female",
+    "voiceName": "it-IT-ElsaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Italian (Italy)",
+    "locale": "it-IT",
+    "gender": "Female",
+    "voiceName": "it-IT-IsabellaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Italian (Italy)",
+    "locale": "it-IT",
+    "gender": "Male",
+    "voiceName": "it-IT-DiegoNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Japanese (Japan)",
+    "locale": "ja-JP",
+    "gender": "Female",
+    "voiceName": "ja-JP-NanamiNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Japanese (Japan)",
+    "locale": "ja-JP",
+    "gender": "Male",
+    "voiceName": "ja-JP-KeitaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Javanese (Indonesia)",
+    "locale": "jv-ID",
+    "gender": "Female",
+    "voiceName": "jv-ID-SitiNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Javanese (Indonesia)",
+    "locale": "jv-ID",
+    "gender": "Male",
+    "voiceName": "jv-ID-DimasNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Kannada (India)",
+    "locale": "kn-IN",
+    "gender": "Female",
+    "voiceName": "kn-IN-SapnaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Kannada (India)",
+    "locale": "kn-IN",
+    "gender": "Male",
+    "voiceName": "kn-IN-GaganNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Kazakh (Kazakhstan)",
+    "locale": "kk-KZ",
+    "gender": "Female",
+    "voiceName": "kk-KZ-AigulNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Kazakh (Kazakhstan)",
+    "locale": "kk-KZ",
+    "gender": "Male",
+    "voiceName": "kk-KZ-DauletNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Khmer (Cambodia)",
+    "locale": "km-KH",
+    "gender": "Female",
+    "voiceName": "km-KH-SreymomNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Khmer (Cambodia)",
+    "locale": "km-KH",
+    "gender": "Male",
+    "voiceName": "km-KH-PisethNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Korean (Korea)",
+    "locale": "ko-KR",
+    "gender": "Female",
+    "voiceName": "ko-KR-SunHiNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Korean (Korea)",
+    "locale": "ko-KR",
+    "gender": "Male",
+    "voiceName": "ko-KR-InJoonNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Lao (Laos)",
+    "locale": "lo-LA",
+    "gender": "Female",
+    "voiceName": "lo-LA-KeomanyNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Lao (Laos)",
+    "locale": "lo-LA",
+    "gender": "Male",
+    "voiceName": "lo-LA-ChanthavongNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Latvian (Latvia)",
+    "locale": "lv-LV",
+    "gender": "Female",
+    "voiceName": "lv-LV-EveritaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Latvian (Latvia)",
+    "locale": "lv-LV",
+    "gender": "Male",
+    "voiceName": "lv-LV-NilsNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Lithuanian (Lithuania)",
+    "locale": "lt-LT",
+    "gender": "Female",
+    "voiceName": "lt-LT-OnaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Lithuanian (Lithuania)",
+    "locale": "lt-LT",
+    "gender": "Male",
+    "voiceName": "lt-LT-LeonasNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Macedonian (Republic of North Macedonia)",
+    "locale": "mk-MK",
+    "gender": "Female",
+    "voiceName": "mk-MK-MarijaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Macedonian (Republic of North Macedonia)",
+    "locale": "mk-MK",
+    "gender": "Male",
+    "voiceName": "mk-MK-AleksandarNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Malay (Malaysia)",
+    "locale": "ms-MY",
+    "gender": "Female",
+    "voiceName": "ms-MY-YasminNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Malay (Malaysia)",
+    "locale": "ms-MY",
+    "gender": "Male",
+    "voiceName": "ms-MY-OsmanNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Malayalam (India)",
+    "locale": "ml-IN",
+    "gender": "Female",
+    "voiceName": "ml-IN-SobhanaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Malayalam (India)",
+    "locale": "ml-IN",
+    "gender": "Male",
+    "voiceName": "ml-IN-MidhunNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Maltese (Malta)",
+    "locale": "mt-MT",
+    "gender": "Female",
+    "voiceName": "mt-MT-GraceNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Maltese (Malta)",
+    "locale": "mt-MT",
+    "gender": "Male",
+    "voiceName": "mt-MT-JosephNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Marathi (India)",
+    "locale": "mr-IN",
+    "gender": "Female",
+    "voiceName": "mr-IN-AarohiNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Marathi (India)",
+    "locale": "mr-IN",
+    "gender": "Male",
+    "voiceName": "mr-IN-ManoharNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Norwegian (Bokmål, Norway)",
+    "locale": "nb-NO",
+    "gender": "Female",
+    "voiceName": "nb-NO-IselinNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Norwegian (Bokmål, Norway)",
+    "locale": "nb-NO",
+    "gender": "Female",
+    "voiceName": "nb-NO-PernilleNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Norwegian (Bokmål, Norway)",
+    "locale": "nb-NO",
+    "gender": "Male",
+    "voiceName": "nb-NO-FinnNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Pashto (Afghanistan)",
+    "locale": "ps-AF",
+    "gender": "Female",
+    "voiceName": "ps-AF-LatifaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Pashto (Afghanistan)",
+    "locale": "ps-AF",
+    "gender": "Male",
+    "voiceName": "ps-AF-GulNawazNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Persian (Iran)",
+    "locale": "fa-IR",
+    "gender": "Female",
+    "voiceName": "fa-IR-DilaraNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Persian (Iran)",
+    "locale": "fa-IR",
+    "gender": "Male",
+    "voiceName": "fa-IR-FaridNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Polish (Poland)",
+    "locale": "pl-PL",
+    "gender": "Female",
+    "voiceName": "pl-PL-AgnieszkaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Polish (Poland)",
+    "locale": "pl-PL",
+    "gender": "Female",
+    "voiceName": "pl-PL-ZofiaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Polish (Poland)",
+    "locale": "pl-PL",
+    "gender": "Male",
+    "voiceName": "pl-PL-MarekNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Portuguese (Brazil)",
+    "locale": "pt-BR",
+    "gender": "Male",
+    "voiceName": "pt-BR-AntonioNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Portuguese (Portugal)",
+    "locale": "pt-PT",
+    "gender": "Female",
+    "voiceName": "pt-PT-FernandaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Portuguese (Portugal)",
+    "locale": "pt-PT",
+    "gender": "Female",
+    "voiceName": "pt-PT-RaquelNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Portuguese (Portugal)",
+    "locale": "pt-PT",
+    "gender": "Male",
+    "voiceName": "pt-PT-DuarteNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Romanian (Romania)",
+    "locale": "ro-RO",
+    "gender": "Female",
+    "voiceName": "ro-RO-AlinaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Romanian (Romania)",
+    "locale": "ro-RO",
+    "gender": "Male",
+    "voiceName": "ro-RO-EmilNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Russian (Russia)",
+    "locale": "ru-RU",
+    "gender": "Female",
+    "voiceName": "ru-RU-DariyaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Russian (Russia)",
+    "locale": "ru-RU",
+    "gender": "Female",
+    "voiceName": "ru-RU-SvetlanaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Russian (Russia)",
+    "locale": "ru-RU",
+    "gender": "Male",
+    "voiceName": "ru-RU-DmitryNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Serbian (Serbia, Cyrillic)",
+    "locale": "sr-RS",
+    "gender": "Female",
+    "voiceName": "sr-RS-SophieNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Serbian (Serbia, Cyrillic)",
+    "locale": "sr-RS",
+    "gender": "Male",
+    "voiceName": "sr-RS-NicholasNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Sinhala (Sri Lanka)",
+    "locale": "si-LK",
+    "gender": "Female",
+    "voiceName": "si-LK-ThiliniNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Sinhala (Sri Lanka)",
+    "locale": "si-LK",
+    "gender": "Male",
+    "voiceName": "si-LK-SameeraNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Slovak (Slovakia)",
+    "locale": "sk-SK",
+    "gender": "Female",
+    "voiceName": "sk-SK-ViktoriaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Slovak (Slovakia)",
+    "locale": "sk-SK",
+    "gender": "Male",
+    "voiceName": "sk-SK-LukasNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Slovenian (Slovenia)",
+    "locale": "sl-SI",
+    "gender": "Female",
+    "voiceName": "sl-SI-PetraNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Slovenian (Slovenia)",
+    "locale": "sl-SI",
+    "gender": "Male",
+    "voiceName": "sl-SI-RokNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Somali (Somalia)",
+    "locale": "so-SO",
+    "gender": "Female",
+    "voiceName": "so-SO-UbaxNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Somali (Somalia)",
+    "locale": "so-SO",
+    "gender": "Male",
+    "voiceName": "so-SO-MuuseNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Spanish (Argentina)",
+    "locale": "es-AR",
+    "gender": "Female",
+    "voiceName": "es-AR-ElenaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Spanish (Argentina)",
+    "locale": "es-AR",
+    "gender": "Male",
+    "voiceName": "es-AR-TomasNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Spanish (Bolivia)",
+    "locale": "es-BO",
+    "gender": "Female",
+    "voiceName": "es-BO-SofiaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Spanish (Bolivia)",
+    "locale": "es-BO",
+    "gender": "Male",
+    "voiceName": "es-BO-MarceloNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Spanish (Chile)",
+    "locale": "es-CL",
+    "gender": "Female",
+    "voiceName": "es-CL-CatalinaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Spanish (Chile)",
+    "locale": "es-CL",
+    "gender": "Male",
+    "voiceName": "es-CL-LorenzoNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Spanish (Colombia)",
+    "locale": "es-CO",
+    "gender": "Female",
+    "voiceName": "es-CO-SalomeNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Spanish (Colombia)",
+    "locale": "es-CO",
+    "gender": "Male",
+    "voiceName": "es-CO-GonzaloNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Spanish (Costa Rica)",
+    "locale": "es-CR",
+    "gender": "Female",
+    "voiceName": "es-CR-MariaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Spanish (Costa Rica)",
+    "locale": "es-CR",
+    "gender": "Male",
+    "voiceName": "es-CR-JuanNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Spanish (Cuba)",
+    "locale": "es-CU",
+    "gender": "Female",
+    "voiceName": "es-CU-BelkysNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Spanish (Cuba)",
+    "locale": "es-CU",
+    "gender": "Male",
+    "voiceName": "es-CU-ManuelNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Spanish (Dominican Republic)",
+    "locale": "es-DO",
+    "gender": "Female",
+    "voiceName": "es-DO-RamonaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Spanish (Dominican Republic)",
+    "locale": "es-DO",
+    "gender": "Male",
+    "voiceName": "es-DO-EmilioNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Spanish (Ecuador)",
+    "locale": "es-EC",
+    "gender": "Female",
+    "voiceName": "es-EC-AndreaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Spanish (Ecuador)",
+    "locale": "es-EC",
+    "gender": "Male",
+    "voiceName": "es-EC-LuisNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Spanish (El Salvador)",
+    "locale": "es-SV",
+    "gender": "Female",
+    "voiceName": "es-SV-LorenaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Spanish (El Salvador)",
+    "locale": "es-SV",
+    "gender": "Male",
+    "voiceName": "es-SV-RodrigoNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Spanish (Equatorial Guinea)",
+    "locale": "es-GQ",
+    "gender": "Female",
+    "voiceName": "es-GQ-TeresaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Spanish (Equatorial Guinea)",
+    "locale": "es-GQ",
+    "gender": "Male",
+    "voiceName": "es-GQ-JavierNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Spanish (Guatemala)",
+    "locale": "es-GT",
+    "gender": "Female",
+    "voiceName": "es-GT-MartaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Spanish (Guatemala)",
+    "locale": "es-GT",
+    "gender": "Male",
+    "voiceName": "es-GT-AndresNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Spanish (Honduras)",
+    "locale": "es-HN",
+    "gender": "Female",
+    "voiceName": "es-HN-KarlaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Spanish (Honduras)",
+    "locale": "es-HN",
+    "gender": "Male",
+    "voiceName": "es-HN-CarlosNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Spanish (Mexico)",
+    "locale": "es-MX",
+    "gender": "Female",
+    "voiceName": "es-MX-DaliaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Spanish (Mexico)",
+    "locale": "es-MX",
+    "gender": "Male",
+    "voiceName": "es-MX-JorgeNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Spanish (Nicaragua)",
+    "locale": "es-NI",
+    "gender": "Female",
+    "voiceName": "es-NI-YolandaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Spanish (Nicaragua)",
+    "locale": "es-NI",
+    "gender": "Male",
+    "voiceName": "es-NI-FedericoNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Spanish (Panama)",
+    "locale": "es-PA",
+    "gender": "Female",
+    "voiceName": "es-PA-MargaritaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Spanish (Panama)",
+    "locale": "es-PA",
+    "gender": "Male",
+    "voiceName": "es-PA-RobertoNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Spanish (Paraguay)",
+    "locale": "es-PY",
+    "gender": "Female",
+    "voiceName": "es-PY-TaniaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Spanish (Paraguay)",
+    "locale": "es-PY",
+    "gender": "Male",
+    "voiceName": "es-PY-MarioNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Spanish (Peru)",
+    "locale": "es-PE",
+    "gender": "Female",
+    "voiceName": "es-PE-CamilaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Spanish (Peru)",
+    "locale": "es-PE",
+    "gender": "Male",
+    "voiceName": "es-PE-AlexNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Spanish (Puerto Rico)",
+    "locale": "es-PR",
+    "gender": "Female",
+    "voiceName": "es-PR-KarinaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Spanish (Puerto Rico)",
+    "locale": "es-PR",
+    "gender": "Male",
+    "voiceName": "es-PR-VictorNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Spanish (Spain)",
+    "locale": "es-ES",
+    "gender": "Female",
+    "voiceName": "es-ES-ElviraNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Spanish (Spain)",
+    "locale": "es-ES",
+    "gender": "Male",
+    "voiceName": "es-ES-AlvaroNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Spanish (Uruguay)",
+    "locale": "es-UY",
+    "gender": "Female",
+    "voiceName": "es-UY-ValentinaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Spanish (Uruguay)",
+    "locale": "es-UY",
+    "gender": "Male",
+    "voiceName": "es-UY-MateoNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Spanish (US)",
+    "locale": "es-US",
+    "gender": "Female",
+    "voiceName": "es-US-PalomaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Spanish (US)",
+    "locale": "es-US",
+    "gender": "Male",
+    "voiceName": "es-US-AlonsoNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Spanish (Venezuela)",
+    "locale": "es-VE",
+    "gender": "Female",
+    "voiceName": "es-VE-PaolaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Spanish (Venezuela)",
+    "locale": "es-VE",
+    "gender": "Male",
+    "voiceName": "es-VE-SebastianNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Sundanese (Indonesia)",
+    "locale": "su-ID",
+    "gender": "Female",
+    "voiceName": "su-ID-TutiNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Sundanese (Indonesia)",
+    "locale": "su-ID",
+    "gender": "Male",
+    "voiceName": "su-ID-JajangNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Swahili (Kenya)",
+    "locale": "sw-KE",
+    "gender": "Female",
+    "voiceName": "sw-KE-ZuriNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Swahili (Kenya)",
+    "locale": "sw-KE",
+    "gender": "Male",
+    "voiceName": "sw-KE-RafikiNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Swahili (Tanzania)",
+    "locale": "sw-TZ",
+    "gender": "Female",
+    "voiceName": "sw-TZ-RehemaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Swahili (Tanzania)",
+    "locale": "sw-TZ",
+    "gender": "Male",
+    "voiceName": "sw-TZ-DaudiNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Swedish (Sweden)",
+    "locale": "sv-SE",
+    "gender": "Female",
+    "voiceName": "sv-SE-HilleviNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Swedish (Sweden)",
+    "locale": "sv-SE",
+    "gender": "Female",
+    "voiceName": "sv-SE-SofieNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Swedish (Sweden)",
+    "locale": "sv-SE",
+    "gender": "Male",
+    "voiceName": "sv-SE-MattiasNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Tamil (India)",
+    "locale": "ta-IN",
+    "gender": "Female",
+    "voiceName": "ta-IN-PallaviNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Tamil (India)",
+    "locale": "ta-IN",
+    "gender": "Male",
+    "voiceName": "ta-IN-ValluvarNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Tamil (Singapore)",
+    "locale": "ta-SG",
+    "gender": "Female",
+    "voiceName": "ta-SG-VenbaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Tamil (Singapore)",
+    "locale": "ta-SG",
+    "gender": "Male",
+    "voiceName": "ta-SG-AnbuNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Tamil (Sri Lanka)",
+    "locale": "ta-LK",
+    "gender": "Female",
+    "voiceName": "ta-LK-SaranyaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Tamil (Sri Lanka)",
+    "locale": "ta-LK",
+    "gender": "Male",
+    "voiceName": "ta-LK-KumarNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Telugu (India)",
+    "locale": "te-IN",
+    "gender": "Female",
+    "voiceName": "te-IN-ShrutiNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Telugu (India)",
+    "locale": "te-IN",
+    "gender": "Male",
+    "voiceName": "te-IN-MohanNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Thai (Thailand)",
+    "locale": "th-TH",
+    "gender": "Female",
+    "voiceName": "th-TH-AcharaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Thai (Thailand)",
+    "locale": "th-TH",
+    "gender": "Female",
+    "voiceName": "th-TH-PremwadeeNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Thai (Thailand)",
+    "locale": "th-TH",
+    "gender": "Male",
+    "voiceName": "th-TH-NiwatNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Turkish (Turkey)",
+    "locale": "tr-TR",
+    "gender": "Female",
+    "voiceName": "tr-TR-EmelNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Turkish (Turkey)",
+    "locale": "tr-TR",
+    "gender": "Male",
+    "voiceName": "tr-TR-AhmetNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Ukrainian (Ukraine)",
+    "locale": "uk-UA",
+    "gender": "Female",
+    "voiceName": "uk-UA-PolinaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Ukrainian (Ukraine)",
+    "locale": "uk-UA",
+    "gender": "Male",
+    "voiceName": "uk-UA-OstapNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Urdu (India)",
+    "locale": "ur-IN",
+    "gender": "Female",
+    "voiceName": "ur-IN-GulNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Urdu (India)",
+    "locale": "ur-IN",
+    "gender": "Male",
+    "voiceName": "ur-IN-SalmanNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Urdu (Pakistan)",
+    "locale": "ur-PK",
+    "gender": "Female",
+    "voiceName": "ur-PK-UzmaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Urdu (Pakistan)",
+    "locale": "ur-PK",
+    "gender": "Male",
+    "voiceName": "ur-PK-AsadNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Uzbek (Uzbekistan)",
+    "locale": "uz-UZ",
+    "gender": "Female",
+    "voiceName": "uz-UZ-MadinaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Uzbek (Uzbekistan)",
+    "locale": "uz-UZ",
+    "gender": "Male",
+    "voiceName": "uz-UZ-SardorNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Vietnamese (Vietnam)",
+    "locale": "vi-VN",
+    "gender": "Female",
+    "voiceName": "vi-VN-HoaiMyNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Vietnamese (Vietnam)",
+    "locale": "vi-VN",
+    "gender": "Male",
+    "voiceName": "vi-VN-NamMinhNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Welsh (United Kingdom)",
+    "locale": "cy-GB",
+    "gender": "Female",
+    "voiceName": "cy-GB-NiaNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Welsh (United Kingdom)",
+    "locale": "cy-GB",
+    "gender": "Male",
+    "voiceName": "cy-GB-AledNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Zulu (South Africa)",
+    "locale": "zu-ZA",
+    "gender": "Female",
+    "voiceName": "zu-ZA-ThandoNeural",
+    "styleSupport": "General"
+  },
+  {
+    "language": "Zulu (South Africa)",
+    "locale": "zu-ZA",
+    "gender": "Male",
+    "voiceName": "zu-ZA-ThembaNeural",
+    "styleSupport": "General"
+  }
+]

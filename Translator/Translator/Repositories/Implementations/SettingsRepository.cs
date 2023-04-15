@@ -10,6 +10,18 @@ namespace Translator.Repositories.Implementations
     {
         #region Publics Properties
 
+        public string SourceTranslationLanguage
+        {
+            get => TryGetLocalValue(nameof(SourceTranslationLanguage), string.Empty);
+            set => TrySetLocalValue(nameof(SourceTranslationLanguage), value);
+        }
+
+        public string TargetTranslationLanguage
+        {
+            get => TryGetLocalValue(nameof(TargetTranslationLanguage), string.Empty);
+            set => TrySetLocalValue(nameof(TargetTranslationLanguage), value);
+        }
+        
         #endregion Publics Properties
 
         #region Private Methods

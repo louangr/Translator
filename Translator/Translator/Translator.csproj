@@ -12,6 +12,7 @@
   <ItemGroup>
     <None Remove="Resources\Design.xaml" />
     <None Remove="Views\HomePage.xaml" />
+    <None Remove="Views\SettingsPage.xaml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -21,7 +22,17 @@
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
     <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.2.230313.1" />
     <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.22621.756" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <Manifest Include="$(ApplicationManifest)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="PrebuiltNeuralVoicesAzureSpeech.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Page Update="Views\SettingsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
 
   <ItemGroup>

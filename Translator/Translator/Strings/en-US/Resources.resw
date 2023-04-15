@@ -120,25 +120,37 @@
   <data name="AppName" xml:space="preserve">
     <value>Translator</value>
   </data>
-  <data name="AutoDetectionCheckBox.Content" xml:space="preserve">
+  <data name="HomePage_AutoDetectionCheckBox.Content" xml:space="preserve">
     <value>Auto detection</value>
   </data>
-  <data name="AutoDetectionTextBlock.Text" xml:space="preserve">
+  <data name="HomePage_AutoDetectionTextBlock.Text" xml:space="preserve">
     <value>Among the source and target languages, the application automatically detects which one is spoken and then translates to the other</value>
   </data>
-  <data name="ContinuousTranslationCheckBox.Content" xml:space="preserve">
+  <data name="HomePage_ContinuousTranslationCheckBox.Content" xml:space="preserve">
     <value>Continuous translation</value>
   </data>
-  <data name="ContinuousTranslationTextBlock.Text" xml:space="preserve">
+  <data name="HomePage_ContinuousTranslationTextBlock.Text" xml:space="preserve">
     <value>The translation stops when you choose it and not at the end of each sentence</value>
   </data>
-  <data name="TranslationTriggerButton.Content" xml:space="preserve">
+  <data name="HomePage_TranslationTriggerButton.Content" xml:space="preserve">
     <value>Let's translate !</value>
   </data>
-  <data name="VocalSynthesisCheckBox.Content" xml:space="preserve">
+  <data name="HomePage_VocalSynthesisCheckBox.Content" xml:space="preserve">
     <value>Vocal synthesis</value>
   </data>
-  <data name="VocalSynthesisTextBlock.Text" xml:space="preserve">
+  <data name="HomePage_VocalSynthesisTextBlock.Text" xml:space="preserve">
     <value>Synthesizes the translation into the target language</value>
+  </data>
+  <data name="SettingsPage_AccountsLabel.Text" xml:space="preserve">
+    <value>Accounts</value>
+  </data>
+  <data name="SettingsPage_AccountsSublabel.Text" xml:space="preserve">
+    <value>Choose the account you want to use for the translation. If no account is mentioned, add one!</value>
+  </data>
+  <data name="SettingsPage_MicrosoftSpeechAPILabel.Text" xml:space="preserve">
+    <value>Microsoft Speech API</value>
+  </data>
+  <data name="SettingsPage_PageNameTextBlock.Text" xml:space="preserve">
+    <value>Settings</value>
   </data>
 </root>

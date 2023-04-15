@@ -20,6 +20,7 @@ namespace Translator.Core
 
             // ViewModels
             services.AddSingleton(typeof(HomePageViewModel));
+            services.AddSingleton(typeof(SettingsPageViewModel));
 
             return services.BuildServiceProvider();
         }
