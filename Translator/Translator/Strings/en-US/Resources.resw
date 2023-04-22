@@ -141,11 +141,20 @@
   <data name="HomePage_VocalSynthesisTextBlock.Text" xml:space="preserve">
     <value>Synthesizes the translation into the target language</value>
   </data>
+  <data name="SettingsPage_AccountNameTextBox.PlaceholderText" xml:space="preserve">
+    <value>Account name</value>
+  </data>
   <data name="SettingsPage_AccountsLabel.Text" xml:space="preserve">
     <value>Accounts</value>
   </data>
   <data name="SettingsPage_AccountsSublabel.Text" xml:space="preserve">
     <value>Choose the account you want to use for the translation. If no account is mentioned, add one!</value>
+  </data>
+  <data name="SettingsPage_AddAccountButton.Content" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="SettingsPage_ApiKeyTextBox.PlaceholderText" xml:space="preserve">
+    <value>API Key</value>
   </data>
   <data name="SettingsPage_MicrosoftSpeechAPILabel.Text" xml:space="preserve">
     <value>Microsoft Speech API</value>

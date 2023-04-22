@@ -141,11 +141,20 @@
   <data name="HomePage_VocalSynthesisTextBlock.Text" xml:space="preserve">
     <value>Synthétise la traduction dans la langue cible</value>
   </data>
+  <data name="SettingsPage_AccountNameTextBox.PlaceholderText" xml:space="preserve">
+    <value>Nom du compte</value>
+  </data>
   <data name="SettingsPage_AccountsLabel.Text" xml:space="preserve">
     <value>Comptes</value>
   </data>
   <data name="SettingsPage_AccountsSublabel.Text" xml:space="preserve">
-    <value>Choisis le compte que souhaite utiliser pour la traduction. Si aucun compte n'est mentionné, ajoutes-en un !</value>
+    <value>Choisis le compte que tu souhaites utiliser pour la traduction. Si aucun compte n'est mentionné, ajoutes-en un !</value>
+  </data>
+  <data name="SettingsPage_AddAccountButton.Content" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="SettingsPage_ApiKeyTextBox.PlaceholderText" xml:space="preserve">
+    <value>Clé d'API</value>
   </data>
   <data name="SettingsPage_MicrosoftSpeechAPILabel.Text" xml:space="preserve">
     <value>API Microsoft Speech</value>

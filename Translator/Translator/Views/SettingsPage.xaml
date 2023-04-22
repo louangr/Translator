@@ -7,6 +7,34 @@
                xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
                mc:Ignorable="d"
                Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <core:CorePage.Resources>
+        <Style x:Key="AccountsListViewItemStyle"
+               TargetType="ListViewItem"
+               BasedOn="{StaticResource DefaultListViewItemStyle}">
+            <Setter Property="Padding"
+                    Value="8,0" />
+        </Style>
+
+        <DataTemplate x:Key="AccountsDataTemplate">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Text="{Binding Item1}"
+                           TextTrimming="CharacterEllipsis" />
+                <Button Grid.Column="1"
+                        Background="Transparent"
+                        Padding="0"
+                        BorderThickness="0">
+                    <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}"
+                              Glyph="&#xE74D;"
+                              FontSize="18" />
+                </Button>
+            </Grid>
+        </DataTemplate>
+    </core:CorePage.Resources>
 
     <Grid Padding="12">
         <Grid.RowDefinitions>
@@ -85,13 +113,53 @@
                                     Padding="6"
                                     Margin="8,0,0,0"
                                     BorderThickness="0">
+                                <Button.Flyout>
+                                    <Flyout>
+                                        <StackPanel Width="220">
+                                            <ListView Margin="0,0,0,8"
+                                                      MaxHeight="200"
+                                                      Padding="0"
+                                                      SelectionMode="None"
+                                                      ItemContainerStyle="{StaticResource AccountsListViewItemStyle}"
+                                                      Visibility="{x:Bind PageViewModel.IsAccountsListViewVisible, Converter={StaticResource BoolToVisibilityConverter}, Mode=OneWay}"
+                                                      ItemTemplate="{StaticResource AccountsDataTemplate}"
+                                                      ItemsSource="{x:Bind PageViewModel.Accounts, Mode=OneWay}" />
+
+                                            <Grid Background="{StaticResource ContainerBackgroundColor}"
+                                                  Padding="8"
+                                                  CornerRadius="8">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="*" />
+                                                    <ColumnDefinition Width="8" />
+                                                    <ColumnDefinition Width="Auto" />
+                                                </Grid.ColumnDefinitions>
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition />
+                                                    <RowDefinition Height="8" />
+                                                    <RowDefinition />
+                                                </Grid.RowDefinitions>
+
+                                                <TextBox x:Uid="SettingsPage_ApiKeyTextBox"
+                                                         Grid.ColumnSpan="3"
+                                                         Text="{x:Bind PageViewModel.ApiKeyInput, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                                                <TextBox x:Uid="SettingsPage_AccountNameTextBox"
+                                                         Grid.Row="3"
+                                                         Text="{x:Bind PageViewModel.AccountNameInput, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                                                <Button x:Uid="SettingsPage_AddAccountButton"
+                                                        Grid.Row="3"
+                                                        Grid.Column="3"
+                                                        Command="{x:Bind PageViewModel.AddAccountCommand}" />
+                                            </Grid>
+                                        </StackPanel>
+                                    </Flyout>
+                                </Button.Flyout>
+
                                 <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}"
                                           Margin="1,1,0,0"
                                           Glyph="&#xE70F;"
                                           FontSize="16" />
                             </Button>
                         </StackPanel>
-
 
                         <TextBlock x:Uid="SettingsPage_AccountsSublabel"
                                    Grid.Row="1"
