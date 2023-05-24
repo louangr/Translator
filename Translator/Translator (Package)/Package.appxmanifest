@@ -7,7 +7,7 @@
   IgnorableNamespaces="uap rescap">
 
 	<Identity
-	  Name="d623aa20-a7d6-485d-b855-6694a0d59d84"
+	  Name="Translator"
 	  Publisher="CN=louangr"
 	  Version="1.0.0.0" />
 

@@ -14,6 +14,7 @@ namespace Translator.Core
 
             // Repositories
             services.AddSingleton<ISettingsRepository, SettingsRepository>();
+            services.AddSingleton<IAccountsRepository, AccountsRepository>();
 
             // Services
             // services.AddSingleton(typeof(MyService));

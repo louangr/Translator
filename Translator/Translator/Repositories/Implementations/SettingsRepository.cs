@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
+using Newtonsoft.Json;
+using Translator.Models;
 using Translator.Repositories.Interfaces;
 using Windows.ApplicationModel;
 using Windows.Management.Core;
@@ -21,7 +23,26 @@ namespace Translator.Repositories.Implementations
             get => TryGetLocalValue(nameof(TargetTranslationLanguage), string.Empty);
             set => TrySetLocalValue(nameof(TargetTranslationLanguage), value);
         }
-        
+
+        public Account SelectedAccount
+        {
+            get
+            {
+                var json = TryGetLocalValue(nameof(SelectedAccount), string.Empty);
+
+                if (!string.IsNullOrEmpty(json))
+                {
+                    return JsonConvert.DeserializeObject<Account>(json);
+                }
+
+                return null;
+            }
+            set
+            {
+                TrySetLocalValue(nameof(SelectedAccount), JsonConvert.SerializeObject(value));
+            }
+        }
+
         #endregion Publics Properties
 
         #region Private Methods

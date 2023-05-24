@@ -22,12 +22,14 @@
                     <ColumnDefinition Width="Auto" />
                 </Grid.ColumnDefinitions>
 
-                <TextBlock Text="{Binding Item1}"
+                <TextBlock Text="{Binding Name}"
                            TextTrimming="CharacterEllipsis" />
                 <Button Grid.Column="1"
                         Background="Transparent"
                         Padding="0"
-                        BorderThickness="0">
+                        BorderThickness="0"
+                        Click="TrashButtonClick"
+                        CommandParameter="{Binding Name}">
                     <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}"
                               Glyph="&#xE74D;"
                               FontSize="18" />
@@ -107,7 +109,10 @@
 
                         <StackPanel Grid.Column="2"
                                     Orientation="Horizontal">
-                            <ComboBox Width="130" />
+                            <ComboBox ItemsSource="{x:Bind PageViewModel.Accounts, Mode=OneWay}"
+                                      DisplayMemberPath="Name"
+                                      SelectedItem="{Binding SelectedAccount, Mode=TwoWay}"
+                                      Width="130" />
 
                             <Button Background="Transparent"
                                     Padding="6"
@@ -116,7 +121,7 @@
                                 <Button.Flyout>
                                     <Flyout>
                                         <StackPanel Width="220">
-                                            <ListView Margin="0,0,0,8"
+                                            <ListView Margin="0,0,0,16"
                                                       MaxHeight="200"
                                                       Padding="0"
                                                       SelectionMode="None"
