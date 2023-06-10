@@ -13,6 +13,7 @@
     <None Remove="Resources\Design.xaml" />
     <None Remove="Views\HomePage.xaml" />
     <None Remove="Views\SettingsPage.xaml" />
+    <None Remove="Views\TranslationPage.xaml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -30,6 +31,9 @@
     <None Update="PrebuiltNeuralVoicesAzureSpeech.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <Page Update="Views\TranslationPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Update="Views\SettingsPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>

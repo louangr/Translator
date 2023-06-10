@@ -21,6 +21,7 @@ namespace Translator.Views
         private ObservableCollection<PrebuiltNeuralVoice> sourceTranslationLanguages;
         private ObservableCollection<PrebuiltNeuralVoice> targetTranslationLanguages;
         private RelayCommand navigateToSettingsPageCommand;
+        private RelayCommand navigateToTranslationPageCommand;
         private ISettingsRepository settingsRepository;
 
         #endregion Private fields
@@ -49,6 +50,7 @@ namespace Translator.Views
             {
                 settingsRepository.SourceTranslationLanguage = value;
                 OnPropertyChanged(nameof(SourceTranslationLanguageSelected));
+                NavigateToTranslationPageCommand.NotifyCanExecuteChanged();
             }
         }
 
@@ -69,11 +71,17 @@ namespace Translator.Views
             {
                 settingsRepository.TargetTranslationLanguage = value;
                 OnPropertyChanged(nameof(TargetTranslationLanguageSelected));
+                NavigateToTranslationPageCommand.NotifyCanExecuteChanged();
             }
         }
 
+        public bool IsTranslationLanguagesSelected => !string.IsNullOrEmpty(TargetTranslationLanguageSelected) && !string.IsNullOrEmpty(SourceTranslationLanguageSelected);
+
         public RelayCommand NavigateToSettingsPageCommand
             => navigateToSettingsPageCommand ?? (navigateToSettingsPageCommand = new RelayCommand(() => Navigate(typeof(SettingsPage))));
+
+        public RelayCommand NavigateToTranslationPageCommand
+            => navigateToTranslationPageCommand ?? (navigateToTranslationPageCommand = new RelayCommand(() => Navigate(typeof(TranslationPage)), () => IsTranslationLanguagesSelected));
 
         #endregion Properties
 

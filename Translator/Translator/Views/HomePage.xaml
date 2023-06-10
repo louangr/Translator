@@ -35,7 +35,8 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="*" />
+            <RowDefinition Height="*"
+                           MinHeight="20" />
             <RowDefinition Height="500" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
@@ -132,7 +133,8 @@
             <Button x:Uid="HomePage_TranslationTriggerButton"
                     Grid.Row="8"
                     HorizontalAlignment="Right"
-                    Style="{StaticResource AccentButtonStyle}" />
+                    Style="{StaticResource AccentButtonStyle}"
+                    Command="{x:Bind PageViewModel.NavigateToTranslationPageCommand}" />
         </Grid>
     </Grid>
 </core:CorePage>
