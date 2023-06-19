@@ -170,7 +170,7 @@
                                    Grid.Row="1"
                                    TextWrapping="Wrap"
                                    TextAlignment="Right"
-                                   Foreground="{StaticResource SublabelColorBrush}" />
+                                   Foreground="{StaticResource DarkTextFillColorPrimary}" />
                     </Grid>
                 </Expander>
             </Grid>

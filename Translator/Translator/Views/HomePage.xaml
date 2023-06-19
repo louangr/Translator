@@ -22,7 +22,7 @@
         <Style x:Key="SublabelTextBlockStyle"
                TargetType="TextBlock">
             <Setter Property="Foreground"
-                    Value="{StaticResource SublabelColorBrush}" />
+                    Value="{StaticResource DarkTextFillColorPrimary}" />
             <Setter Property="TextWrapping"
                     Value="Wrap" />
         </Style>

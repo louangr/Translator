@@ -1,5 +1,4 @@
-﻿using System;
-using CommunityToolkit.Mvvm.Input;
+﻿using CommunityToolkit.Mvvm.Input;
 using Translator.Core;
 
 namespace Translator.Views

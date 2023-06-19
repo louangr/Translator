@@ -7,6 +7,27 @@
                xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
                mc:Ignorable="d"
                Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <core:CorePage.Resources>
+        <Style x:Key="LiveTranslationContainerStyle"
+               TargetType="StackPanel">
+            <Setter Property="CornerRadius"
+                    Value="12" />
+            <Setter Property="Padding"
+                    Value="10,6,10,10" />
+            <Setter Property="Background"
+                    Value="{StaticResource ContainerBackgroundColor}" />
+        </Style>
+        
+        <Style x:Key="LiveTranslationTextBlockStyle"
+               TargetType="TextBlock">
+            <Setter Property="TextWrapping"
+                    Value="WrapWholeWords" />
+            <Setter Property="FontSize"
+                    Value="16" />
+            <Setter Property="Foreground"
+                    Value="{StaticResource LowDarkTextFillColorPrimary}" />
+        </Style>
+    </core:CorePage.Resources>
 
     <Grid Padding="12">
         <Grid.RowDefinitions>
@@ -14,8 +35,7 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
-        <Button Grid.Column="2"
-                Background="Transparent"
+        <Button Background="Transparent"
                 Padding="0"
                 BorderThickness="0"
                 VerticalAlignment="Top"
@@ -26,5 +46,108 @@
                       Glyph="&#xE106;"
                       FontSize="20" />
         </Button>
+
+        <Grid Padding="24,6,24,24"
+              Grid.Row="1">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="16" />
+                <RowDefinition Height="Auto"
+                               MinHeight="150" />
+            </Grid.RowDefinitions>
+
+            <TextBox TextWrapping="Wrap"
+                     Margin="0,0,44,0"
+                     Style="{StaticResource TranslationPageTextBoxStyle}" />
+
+            <StackPanel Margin="0,0,44,0"
+                        Grid.Row="2"
+                        Style="{StaticResource LiveTranslationContainerStyle}">
+                <TextBlock Style="{StaticResource LiveTranslationTextBlockStyle}" />
+            </StackPanel>
+
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*"
+                                   MinHeight="24" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="10" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="24" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <ToggleButton Grid.Column="1"
+                              Padding="0"
+                              VerticalAlignment="Top"
+                              HorizontalAlignment="Center">
+                    <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}"
+                              Margin="4"
+                              Glyph="&#xE76B;"
+                              FontSize="28" />
+                </ToggleButton>
+
+                <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}"
+                          Grid.Row="2"
+                          Glyph="&#xE8D2;"
+                          FontSize="20" />
+
+                <Slider Orientation="Vertical"
+                        Grid.Row="4"
+                        Height="100"
+                        VerticalAlignment="Center"
+                        HorizontalAlignment="Center"
+                        TickFrequency="1"
+                        TickPlacement="Outside"
+                        Maximum="20"
+                        Minimum="14"
+                        Value="14"
+                        IsEnabled="False" />
+
+                <Button Grid.Row="6"
+                        Padding="0"
+                        IsEnabled="False"
+                        VerticalAlignment="Bottom"
+                        HorizontalAlignment="Center">
+                    <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}"
+                              Margin="4"
+                              Glyph="&#xE8AB;"
+                              FontSize="28" />
+                </Button>
+            </Grid>
+
+            <ToggleButton Grid.Column="1"
+                          Grid.Row="2"
+                          CornerRadius="100"
+                          Padding="0"
+                          IsChecked="True"
+                          VerticalAlignment="Center"
+                          HorizontalAlignment="Center">
+                <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}"
+                          Margin="20"
+                          Glyph="&#xF12E;"
+                          FontSize="40" />
+            </ToggleButton>
+
+            <TextBox TextWrapping="Wrap"
+                     Grid.Column="2"
+                     Margin="44,0,0,0"
+                     Style="{StaticResource TranslationPageTextBoxStyle}" />
+
+            <StackPanel Margin="44,0,0,0"
+                        Grid.Column="2"
+                        Grid.Row="2"
+                        Style="{StaticResource LiveTranslationContainerStyle}">
+                <TextBlock Style="{StaticResource LiveTranslationTextBlockStyle}" />
+            </StackPanel>
+        </Grid>
     </Grid>
 </core:CorePage>
