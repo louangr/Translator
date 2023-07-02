@@ -86,10 +86,6 @@ namespace Translator.Views
             Initialize();
         }
 
-        #endregion Public methods
-
-        #region Private methods
-
         public void Initialize(List<PrebuiltNeuralVoice> prebuiltNeuralVoices = null)
         {
             if (prebuiltNeuralVoices != null)
@@ -101,6 +97,6 @@ namespace Translator.Views
             OnPropertyChanged(nameof(TargetTranslationLanguageSelected));
         }
 
-        #endregion Private methods
+        #endregion Public methods
     }
 }
