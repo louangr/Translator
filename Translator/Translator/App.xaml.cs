@@ -1,10 +1,8 @@
 ﻿using System;
 using Microsoft.UI.Xaml;
 using Translator.Core;
-using Translator.Repositories.Implementations;
 using Translator.Repositories.Interfaces;
 using Translator.Strings;
-using Translator.Views;
 
 namespace Translator
 {

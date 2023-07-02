@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.IO;
-using System.Linq;
 using CommunityToolkit.Mvvm.Input;
-using Newtonsoft.Json;
 using Translator.Core;
 using Translator.Models;
 using Translator.Repositories.Interfaces;
@@ -15,9 +11,6 @@ namespace Translator.Views
     {
         #region Private fields
 
-        private static readonly string AZURE_LANGUAGE_RESOURCE_FILE_PATH = $"{AppDomain.CurrentDomain.BaseDirectory}PrebuiltNeuralVoicesAzureSpeech.json";
-
-        private List<PrebuiltNeuralVoice> prebuiltNeuralVoices;
         private ObservableCollection<PrebuiltNeuralVoice> sourceTranslationLanguages;
         private ObservableCollection<PrebuiltNeuralVoice> targetTranslationLanguages;
         private RelayCommand navigateToSettingsPageCommand;
@@ -97,14 +90,13 @@ namespace Translator.Views
 
         #region Private methods
 
-        private void Initialize()
+        public void Initialize(List<PrebuiltNeuralVoice> prebuiltNeuralVoices = null)
         {
-            var streamReader = new StreamReader(AZURE_LANGUAGE_RESOURCE_FILE_PATH);
-            string jsonString = streamReader.ReadToEnd();
-            prebuiltNeuralVoices = JsonConvert.DeserializeObject<List<PrebuiltNeuralVoice>>(jsonString);
-            var languages = prebuiltNeuralVoices.DistinctBy(v => v.Locale);
-            SourceTranslationLanguages = new ObservableCollection<PrebuiltNeuralVoice>(languages);
-            TargetTranslationLanguages = new ObservableCollection<PrebuiltNeuralVoice>(languages);
+            if (prebuiltNeuralVoices != null)
+            {
+                SourceTranslationLanguages = new ObservableCollection<PrebuiltNeuralVoice>(prebuiltNeuralVoices);
+                TargetTranslationLanguages = new ObservableCollection<PrebuiltNeuralVoice>(prebuiltNeuralVoices);
+            }
             OnPropertyChanged(nameof(SourceTranslationLanguageSelected));
             OnPropertyChanged(nameof(TargetTranslationLanguageSelected));
         }
